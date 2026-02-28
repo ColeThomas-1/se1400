@@ -45,3 +45,9 @@ main {
 .gallery {
     
 }
+footer {
+    grid-row: 5 / 6;
+    grid-column: 1 / -1;
+    background-color: rgba(255, 0, 255, 0.7);
+    min-height: 20px;
+}
