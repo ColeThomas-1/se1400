@@ -1,9 +1,12 @@
-
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       font-family: 'Nunito', sans-serif;
-      background: linear-gradient(to bottom, #E63D32, #E5B145);
+      background-image: url('Hair%20Photos%20for%20Web/Girl%20Friday%20Corner%20Colors.png'),
+        linear-gradient(to bottom, #E63D32, #E5B145);
+      background-repeat: no-repeat, no-repeat;
+      background-position: top left, top left;
+      background-size: 100% auto, cover;
       overflow-x: hidden;
     }
 
@@ -14,10 +17,7 @@
       max-width: 680px;
       margin: 0 auto;
       position: relative;
-      background-image: url('Hair Photos for Web/Girl Friday Corner Colors.png');
-      background-repeat: no-repeat;
-      background-position: top left;
-      background-size: 100% auto;
+      background: transparent;
     }
 
     #header {
@@ -54,7 +54,7 @@
       text-decoration: none;
       padding: 10px 22px;
     }
-    #nav a:hover { color: #E56F11; }
+    #nav a:hover { font-weight: 70; }
 
     #background {
       grid-row: 3 / 4;
