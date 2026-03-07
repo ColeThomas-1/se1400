@@ -14,12 +14,7 @@
       max-width: 680px;
       margin: 0 auto;
       position: relative;
-      /* =============================================
-         BACKGROUND IMAGE — swap the filename below
-         with your own image file (place it in the
-         same folder as this HTML file)
-         ============================================= */
-      background-image: url('YOUR_IMAGE_HERE.png');
+      background-image: url('Hair Photos for Web/Girl Friday Corner Colors.png');
       background-repeat: no-repeat;
       background-position: top left;
       background-size: 100% auto;
